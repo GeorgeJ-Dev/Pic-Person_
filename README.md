@@ -1,6 +1,6 @@
 # Pac-Man Clone (VB.NET)
 
-This is a custom-built Pac-Man clone developed in Visual Basic .NET. The game features object-oriented design, user interaction, and pathfinding. Ghosts use a hybrid of Breadth-First Search and Dijkstra’s algorithm to pursue the player intelligently across a 2D grid-based maze.
+This is a custom-built Pac-Man clone developed in VB.NET. The game features object-oriented design, user interaction, and pathfinding. Ghosts use a hybrid of Breadth-First Search and Dijkstra’s algorithm to pursue the player intelligently across a 2D grid-based maze.
 
 ## Key Features
 - Object-oriented structure using custom classes for characters, tiles, and game logic
