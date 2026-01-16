@@ -225,7 +225,7 @@ Public Class Form2
 
     Private IntResWidth As Integer
     Private IntResHeight As Integer
-    Private IntTileSize As Integer = 40
+    Private IntTileSize As Integer = 24
     Private TilesNotEmpty As Integer = 0
     Private IsGhostsFrightened As Boolean = False
     Private FrightenedGhostcount As Integer = 0
