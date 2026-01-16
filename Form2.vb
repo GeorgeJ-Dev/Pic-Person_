@@ -1069,7 +1069,7 @@ to start"
 
             'Move Pac-Man
             If Speedx10 = True Then
-                Pacman.Mspeed = 2
+                Pacman.Mspeed = 1
             End If
 
             Pacman.Move(Maps(MapNo))
@@ -1163,16 +1163,14 @@ to start"
                 NormalGhostSpeed = 1
                 FastGhostSpeed = 0
             Else
-
                 SlowGhostSpeed = 20
-                NormalGhostSpeed = 5
-                FastGhostSpeed = 4
+                NormalGhostSpeed = 6
+                FastGhostSpeed = 5
             End If
 
             If Pacman.GameSpeedIncreaseDueToPelletCount = True Then
                 SlowGhostSpeed -= 5
                 NormalGhostSpeed -= 1
-                FastGhostSpeed -= 1
             End If
 
             'Calculating the ghosts next tile and path
@@ -1964,7 +1962,7 @@ Public Class Pacman
     Private NeedToUpdateHorizontalPortals As Boolean = False
 
     Private Mcount As Integer = 0 'Movemnet count 
-    Public Mspeed As Integer = 5 'Movement speed
+    Public Mspeed As Integer = 6 'Movement speed
 
     Public Sub New(startX As Integer, startY As Integer)
         MyBase.New(startX, startY)
